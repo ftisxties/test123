@@ -21,7 +21,7 @@ div#unreal-02, .unreal-regis { display: flex; flex-wrap: wrap; } .unreal-regis {
 .unreal-regis .unreal-txt texto, .unreal-rtxt texto { display: block; overflow: auto; height: 250px; padding-right: 3px; }
 .unreal-regis strong, .unreal-regis i { color: var(--color-3); font: 700 10px var(--t1); }
 .unreal-regis strong { text-transform: uppercase; }
-.unreal-regis i { font-weight: 600; font-style: italic; }
+.unreal-regis i { font-weight: 600; font-style: bold; }
 .unreal-rtxt br, .unreal-txt br { display: block!important; }
 .unreal-regis .unreal-important { margin-top: 30px; }
 
