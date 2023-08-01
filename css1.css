@@ -5,6 +5,7 @@
   border: 3px solid #afafce;
   border-radius: 5px; /* Vous pouvez ajuster le rayon du bord de la jauge selon vos préférences */
   overflow: hidden; /* Pour cacher le débordement du contenu à l'intérieur de la jauge */
+  padding: 0; 
 }
 
 /* CSS pour le remplissage de la jauge */
@@ -12,4 +13,5 @@
   width: 0%;
   height: 80%;
   background-color: #6DC5A6;
+  padding: 0; 
 }
