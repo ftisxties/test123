@@ -2,7 +2,7 @@
 .progress-bar {
   width: 100%; /* Vous pouvez ajuster la largeur de la jauge selon vos préférences */
   height: 30px;
-  border: 3px solid #ccc; /* Couleur et épaisseur de la bordure (gris dans ce cas) */
+  border: 3px solid #afafce;
   border-radius: 5px; /* Vous pouvez ajuster le rayon du bord de la jauge selon vos préférences */
   overflow: hidden; /* Pour cacher le débordement du contenu à l'intérieur de la jauge */
 }
@@ -11,5 +11,5 @@
 .progress-bar .fill {
   width: 0%;
   height: 80%;
-  background-color: #F2F2F7;
+  background-color: #6DC5A6;
 }
