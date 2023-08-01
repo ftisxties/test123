@@ -1,17 +1,18 @@
 /* CSS pour la jauge */
 .progress-bar {
+  display: flex; /* Utilisez flexbox pour ajuster le positionnement de .fill */
   width: 100%; /* Vous pouvez ajuster la largeur de la jauge selon vos préférences */
   height: 15px;
-  border: 3px solid #afafce;
+  border: 2px solid #afafce; /* Couleur et épaisseur de la bordure (gris dans ce cas) */
   border-radius: 5px; /* Vous pouvez ajuster le rayon du bord de la jauge selon vos préférences */
   overflow: hidden; /* Pour cacher le débordement du contenu à l'intérieur de la jauge */
-  padding: 0; 
+  margin-right: 20px; /* Vous pouvez ajuster la valeur pour décaler la jauge vers la droite */
 }
 
 /* CSS pour le remplissage de la jauge */
 .progress-bar .fill {
-  width: 0%;
+  flex: 1; /* Utilisez flex-grow pour que .fill prenne toute la largeur disponible */
   height: 80%;
   background-color: #6DC5A6;
-  padding: 0; 
+  padding: 0; /* Ajuste le remplissage à zéro pour éliminer l'écart entre le contenu et la bordure */
 }
