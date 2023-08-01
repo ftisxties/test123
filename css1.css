@@ -11,8 +11,9 @@
 
 /* CSS pour le remplissage de la jauge */
 .progress-bar .fill {
-  flex: 1; /* Utilisez flex-grow pour que .fill prenne toute la largeur disponible */
+  poisition:absolute;
   height: 80%;
   background-color: #6DC5A6;
   padding: 0; /* Ajuste le remplissage à zéro pour éliminer l'écart entre le contenu et la bordure */
+  width: calc(100% + 2px);
 }
